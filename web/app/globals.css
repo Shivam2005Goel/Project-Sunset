@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * The subject matter is a death in the family. The interface should feel like a well-kept
+ * file, not a product tour: quiet ground, one accent, generous line height, and no
+ * animation that draws attention to itself.
+ */
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-ink-950 text-ink-200 antialiased;
+    font-feature-settings: "tnum" 1, "cv05" 1;
+  }
+
+  ::selection {
+    @apply bg-sage-500/30;
+  }
+
+  /* Scrollbars, so a wide audit table does not look like a browser default. */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded bg-ink-700;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-ink-600;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-lg border border-ink-800 bg-ink-900;
+  }
+
+  .panel-head {
+    @apply flex items-baseline justify-between border-b border-ink-800 px-5 py-3;
+  }
+
+  .panel-title {
+    @apply text-sm font-medium tracking-wide text-ink-200;
+  }
+
+  .panel-note {
+    @apply text-2xs text-ink-500;
+  }
+
+  .label {
+    @apply text-2xs uppercase tracking-widest text-ink-500;
+  }
+
+  .btn {
+    @apply rounded border px-3 py-1.5 text-xs font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-approve {
+    @apply border-sage-500/40 bg-sage-500/10 text-sage-300 hover:bg-sage-500/20;
+  }
+
+  .btn-reject {
+    @apply border-alarm-500/40 bg-alarm-500/10 text-alarm-400 hover:bg-alarm-500/20;
+  }
+
+  .btn-quiet {
+    @apply border-ink-700 bg-ink-850 text-ink-300 hover:bg-ink-800;
+  }
+
+  /* Letters are set in a serif at a readable measure. An executor reads every word of
+     these before approving, and a monospace wall of text is not readable. */
+  .letter {
+    @apply whitespace-pre-wrap font-serif text-[13.5px] leading-relaxed text-ink-200;
+  }
+
+  .cell {
+    @apply px-3 py-2 align-top text-xs;
+  }
+
+  .rule {
+    @apply font-mono text-2xs text-ink-400;
+  }
+}

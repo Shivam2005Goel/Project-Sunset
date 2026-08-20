@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+NORTHSHORE WIRELESS
+2200 Harbour Way, Richmond CA 94804
+
+STATEMENT OF ACCOUNT
+Mobile service - two lines
+Account Number: 4471882
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $68.00
+
+Questions about this statement? Write to bereavement@northshore-wireless.example.invalid
+
+=== END OF DOCUMENT ===

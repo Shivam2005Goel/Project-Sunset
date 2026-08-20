@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+KESTREL COUNTY ASSESSOR
+County Administration Building, Kestrel CA 95440
+
+ANNUAL PROPERTY TAX ASSESSMENT NOTICE
+Parcel Number: 041-2280-119
+
+ELEANOR MARGARET HALLORAN
+218 Ridgeline Avenue, Oakland CA 94611
+
+This notice is issued annually for your records. Please retain it. If any of the
+details shown are incorrect, contact us at the address below.
+
+Correspondence: assessor@kestrelcounty.example.invalid
+
+=== END OF DOCUMENT ===

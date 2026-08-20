@@ -1,0 +1,6 @@
+From: estates@meridian-trust.example.invalid
+Subject: Further information required - BRV-2026-88214
+Simulated-Day: 11
+Kind: request
+
+Thank you for your letter. Before we can proceed we require the completed Form DA-2 signed by the executor. Please submit this within 10 business days quoting the reference above.

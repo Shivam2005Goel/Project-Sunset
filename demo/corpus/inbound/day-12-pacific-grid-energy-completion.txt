@@ -1,0 +1,6 @@
+From: estates@pacific-grid.example.invalid
+Subject: Account transferred to the estate - 8812-4471
+Simulated-Day: 12
+Kind: completion
+
+Following your confirmation that the property remains occupied, the account has been transferred to the estate rather than closed. Supply continues uninterrupted. The final bill to the date of death has been issued and the matter is now concluded.

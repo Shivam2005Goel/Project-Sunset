@@ -1,0 +1,38 @@
+{
+  "_comment": "Models the response shape of three state unclaimed-property registries. Fictional records only. See services/discovery/unclaimed.py for what is and is not claimed about this.",
+  "records": [
+    {
+      "registry": "CA",
+      "holder": "Harlow and Vance Escrow",
+      "owner_name": "Eleanor M Halloran",
+      "owner_address": "218 Ridgeline Avenue, Oakland CA 94611",
+      "property_type": "Uncashed escrow refund cheque",
+      "amount_usd": 4214.6,
+      "reported_year": 2019,
+      "claim_reference": "CA-UP-2019-771204",
+      "claim_contact": "claims@ca-unclaimed.example.invalid"
+    },
+    {
+      "registry": "CA",
+      "holder": "Sundial Mutual Holdings",
+      "owner_name": "Eleanor M Halloran",
+      "owner_address": "1102 Vine Street, Bakersfield CA 93301",
+      "property_type": "Dormant deposit",
+      "amount_usd": 812.0,
+      "reported_year": 2021,
+      "claim_reference": "CA-UP-2021-338112",
+      "claim_contact": "claims@ca-unclaimed.example.invalid"
+    },
+    {
+      "registry": "TX",
+      "holder": "Longview Title Company",
+      "owner_name": "Eleanor Halloran",
+      "owner_address": "4 Cypress Row, Austin TX 78701",
+      "property_type": "Escrow balance",
+      "amount_usd": 1990.0,
+      "reported_year": 2017,
+      "claim_reference": "TX-UP-2017-004412",
+      "claim_contact": "claims@tx-unclaimed.example.invalid"
+    }
+  ]
+}

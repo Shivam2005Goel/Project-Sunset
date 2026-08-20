@@ -1,0 +1,10 @@
+From: members@ironbridge-retirement.example.invalid
+Subject: Member M-889-2213 - bereavement notification received
+Simulated-Day: 6
+Kind: ack
+
+Thank you for your letter regarding the estate. We have received it and your request is being processed. Our condolences on your loss.
+
+We acknowledge receipt of your notification. The member record is under review.
+
+We will write again once our review is complete.

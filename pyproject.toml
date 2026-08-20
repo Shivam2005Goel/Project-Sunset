@@ -1,0 +1,64 @@
+[project]
+name = "aftercare"
+version = "1.0.0"
+description = "An autonomous agent that handles the bureaucracy of death."
+readme = "ARCHITECTURE.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+
+# Pinned on Day 0. Do not float these before the deadline - a surprise minor bump in a
+# Google SDK on Day 9 is exactly the failure mode BUILD_PLAN.md warns about.
+dependencies = [
+    "pydantic>=2.7,<3",
+    "fastapi>=0.111,<1",
+    "uvicorn[standard]>=0.30,<1",
+    "pyyaml>=6.0,<7",
+    "python-multipart>=0.0.9",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+# Cloud mode. Local mode needs none of this - that is the point of the adapter rule.
+cloud = [
+    "google-genai>=1.0",
+    "google-cloud-aiplatform>=1.60",
+    "google-cloud-firestore>=2.16",
+    "google-cloud-pubsub>=2.21",
+    "google-cloud-storage>=2.17",
+    "google-cloud-bigquery>=3.25",
+    "google-cloud-tasks>=2.16",
+    "google-cloud-dlp>=3.18",
+    "google-cloud-secret-manager>=2.20",
+    "google-api-python-client>=2.130",
+    "google-auth-oauthlib>=1.2",
+    "opentelemetry-sdk>=1.25",
+    "opentelemetry-exporter-gcp-trace>=1.6",
+    "google-adk>=0.1",
+]
+dev = [
+    "pytest>=8.2",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [".aftercare", "web", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["B008", "E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"packages/guardrails/payloads.py" = ["E501"]
+"tests/*" = ["E501"]
+
+[tool.setuptools]
+packages = ["demo", "infra", "packages", "services", "web"]

@@ -1,0 +1,6 @@
+From: subscriptions@thornfieldreview.example.invalid
+Subject: Subscription cancelled - TQ-91820
+Simulated-Day: 4
+Kind: completion
+
+We have received your letter. The subscription has been cancelled and no further issues will be despatched. A pro-rata refund of $11.24 has been issued to the original payment method. No further action is required.

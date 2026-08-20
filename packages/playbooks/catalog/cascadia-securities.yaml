@@ -1,0 +1,72 @@
+# Fictional institution. Modelled on publicly documented brokerage transfer procedures.
+name: cascadia-securities
+institution_name: Cascadia Securities
+category: BROKERAGE
+version: 1.0.0
+aliases:
+  - Cascadia Securities LLC
+  - CASCADIA SEC
+  - Cascadia Investments
+
+department: Estate Transfer Unit
+submission_channel: EMAIL
+submission_address: estatetransfer@cascadia-securities.example.invalid
+submission_note: >-
+  Positions are not liquidated on notification; they are transferred in kind to an
+  estate account and remain exposed to the market throughout. Cascadia will not accept
+  a liquidation instruction from anyone but the executor, in writing, per position -
+  the agent never gives one.
+
+required_documents:
+  - certified copy of the death certificate
+  - letters testamentary
+  - completed estate transfer instruction (Form ET-3)
+  - executor's government-issued photo identification
+  - estate taxpayer identification number
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_date_of_birth
+  - decedent_ssn_last4
+  - death_certificate_certified
+  - letters_testamentary
+  - executor_full_name
+  - executor_email
+  - executor_photo_id
+  - account_fingerprint
+  - tax_identification_number
+
+typical_sla_days: 21
+follow_up_after_days: 28
+max_follow_ups: 2
+
+known_follow_up_demands:
+  - document: medallion signature guarantee
+    frequency: always
+    first_seen: 1.0.0
+    note: >-
+      A medallion guarantee must be obtained in person by the executor at a
+      participating institution. The agent cannot obtain one and never implies it can.
+  - document: cost basis election for inherited positions
+    frequency: common
+    first_seen: 1.0.0
+    note: A tax election - always escalates, never answered by the agent.
+
+escalation_triggers:
+  - any request for a medallion signature guarantee
+  - any question about cost basis, step-up, or tax elections
+  - any instruction to buy, sell, or liquidate a position
+  - any margin call or negative cash balance
+
+closure_signals:
+  - positions have been transferred to the estate account
+  - account has been closed
+  - transfer instruction has been executed
+
+source: Composite of publicly published brokerage estate-transfer guides. Fictional.
+notes: >-
+  Two of the three escalation triggers here are tax questions. A brokerage is where an
+  over-eager automated agent would do the most damage, and where the approval boundary
+  earns its keep.
+fictional: true

@@ -1,0 +1,6 @@
+From: bereavement@halcyon-life.example.invalid
+Subject: Claim HLA-2026-8871 paid
+Simulated-Day: 26
+Kind: completion
+
+The claim has been paid. Payment has been issued to the estate in the sum shown on the enclosed settlement schedule. The policy is now closed.

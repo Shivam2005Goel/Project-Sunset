@@ -1,0 +1,6 @@
+From: bereavement@northshore-wireless.example.invalid
+Subject: Account closed - 4471882
+Simulated-Day: 17
+Kind: completion
+
+Thank you for providing the executor's identification. The line has been disconnected and the account has been closed. The final bill has been issued and backdated to the date of death as promised.

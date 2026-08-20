@@ -1,0 +1,6 @@
+From: care@sunsetfiber.example.invalid
+Subject: Service ended - 22-778341
+Simulated-Day: 14
+Kind: completion
+
+The broadband service has been disconnected and the account is now closed. Equipment return is not required. Nothing further is owed.

@@ -1,0 +1,74 @@
+# Fictional institution. Process modelled on the publicly documented bereavement
+# procedures of large retail banks: notify, freeze, evidence, close, disburse.
+name: meridian-trust-bank
+institution_name: Meridian Trust Bank
+category: BANK
+version: 1.0.0
+aliases:
+  - Meridian Trust
+  - Meridian Trust Bank NA
+  - MERIDIAN TRUST BK
+  - Meridian Bank
+
+department: Estate Services (Deceased Account Team)
+submission_channel: EMAIL
+submission_address: estates@meridian-trust.example.invalid
+submission_note: >-
+  Meridian will not act on a notification sent to a branch or to general customer
+  service; it must reach Estate Services directly. Quote the bereavement reference in
+  the subject line of every subsequent message or the thread is re-triaged from the
+  start.
+
+required_documents:
+  - certified copy of the death certificate
+  - letters testamentary or small estate affidavit
+  - executor's government-issued photo identification
+  - completed deceased account notification form (Form DA-2)
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_date_of_birth
+  - decedent_last_address
+  - decedent_ssn_last4
+  - death_certificate_certified
+  - letters_testamentary
+  - executor_full_name
+  - executor_email
+  - executor_photo_id
+  - account_fingerprint
+
+typical_sla_days: 10
+follow_up_after_days: 14
+max_follow_ups: 2
+
+known_follow_up_demands:
+  - document: notarised signature on Form DA-2
+    frequency: common
+    first_seen: 1.0.0
+    note: >-
+      Requested whenever the balance exceeds the small-estate threshold. Notarisation
+      is the executor's act, not the agent's - this always escalates.
+  - document: proof of the executor's current address
+    frequency: occasional
+    first_seen: 1.0.0
+    note: Requested when the executor's address differs from the decedent's.
+
+escalation_triggers:
+  - any request for a notarised or witnessed signature
+  - any statement that the account holds a negative balance or an outstanding loan
+  - any mention of a joint account holder or a payable-on-death beneficiary
+  - any request to wire or transfer the balance rather than issue an estate cheque
+
+closure_signals:
+  - the account has been closed
+  - closing balance has been released to the estate
+  - estate cheque has been issued
+
+source: >-
+  Composite of publicly published retail-bank bereavement guides. No real customer data
+  and no real institution's internal process is reproduced here.
+notes: >-
+  Highest-value playbook in the catalog: banks are on every estate, and the Form DA-2
+  step is the one families most often miss, which costs a full SLA cycle.
+fictional: true

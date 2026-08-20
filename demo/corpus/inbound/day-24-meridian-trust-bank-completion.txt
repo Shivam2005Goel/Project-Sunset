@@ -1,0 +1,6 @@
+From: estates@meridian-trust.example.invalid
+Subject: Account closed - BRV-2026-88214
+Simulated-Day: 24
+Kind: completion
+
+We have received the completed Form DA-2. The account has been closed with effect from the date of death and the closing balance has been released to the estate. A confirmation of closure is enclosed for your records.

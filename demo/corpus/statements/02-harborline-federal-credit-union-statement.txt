@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+HARBORLINE FEDERAL CREDIT UNION
+88 Estuary Road, Alameda CA 94501
+
+STATEMENT OF ACCOUNT
+Share Savings Account - annual statement
+Account Number: 77-220145
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Closing Balance: $6,180.04
+
+Questions about this statement? Write to memberservices@harborline-fcu.example.invalid
+
+=== END OF DOCUMENT ===

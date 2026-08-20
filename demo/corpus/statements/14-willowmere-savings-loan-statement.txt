@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+WILLOWMERE SAVINGS AND LOAN
+20 Mill Street, Petaluma CA 94952
+
+STATEMENT OF ACCOUNT
+Passbook savings account
+Account Number: 91-338204
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Closing Balance: $3,915.62
+
+Questions about this statement? Write to estates@willowmere-savings.example.invalid
+
+=== END OF DOCUMENT ===

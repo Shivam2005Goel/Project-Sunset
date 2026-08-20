@@ -1,0 +1,6 @@
+From: orders@aureliapress.example.invalid
+Subject: Standing order closed - AP-220914
+Simulated-Day: 5
+Kind: completion
+
+Thank you for letting us know. The standing order has been closed and the account is now closed. Nothing further is owed and no further deliveries will be made.

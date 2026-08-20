@@ -1,0 +1,6 @@
+From: members@ironbridge-retirement.example.invalid
+Subject: Member M-889-2213 - final settlement
+Simulated-Day: 27
+Kind: completion
+
+We have received Form MB-7. The member record has been closed. Final settlement has been issued to the estate, net of two instalments paid after the date of death which have been recovered as set out in the enclosed statement.

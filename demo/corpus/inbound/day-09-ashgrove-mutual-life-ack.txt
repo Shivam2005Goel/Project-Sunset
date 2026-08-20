@@ -1,0 +1,10 @@
+From: claims@ashgrove-mutual.example.invalid
+Subject: Claim opened - policy LX-4471-8820
+Simulated-Day: 9
+Kind: ack
+
+Thank you for your letter regarding the estate. We have received it and your request is being processed. Our condolences on your loss.
+
+A claim file has been opened under reference AML-CL-99120.
+
+We will write again once our review is complete.

@@ -1,0 +1,6 @@
+From: estates@redwood-lending.example.invalid
+Subject: Mortgage 60-448120 - estate transfer complete
+Simulated-Day: 25
+Kind: completion
+
+The mortgage has been transferred into the name of the estate pending sale or assumption. Payments resume on the schedule enclosed. This matter is now concluded from our side; the estate's attorney should contact us before any sale completes.

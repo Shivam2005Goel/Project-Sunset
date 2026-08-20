@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+REDWOOD HOME LENDING
+1 Sequoia Park, Santa Rosa CA 95401
+
+STATEMENT OF ACCOUNT
+Residential mortgage - annual statement
+Account Number: 60-448120
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $84,220.11
+
+Questions about this statement? Write to estates@redwood-lending.example.invalid
+
+=== END OF DOCUMENT ===

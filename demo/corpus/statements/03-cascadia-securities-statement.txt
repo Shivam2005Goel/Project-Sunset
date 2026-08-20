@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+CASCADIA SECURITIES
+500 Alder Tower, Portland OR 97204
+
+STATEMENT OF ACCOUNT
+Individual Brokerage Account - annual summary
+Account Number: 5590-44821
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Account Value: $141,203.77
+
+Questions about this statement? Write to estatetransfer@cascadia-securities.example.invalid
+
+=== END OF DOCUMENT ===

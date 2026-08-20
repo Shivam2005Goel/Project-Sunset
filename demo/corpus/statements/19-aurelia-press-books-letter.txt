@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+AURELIA PRESS BOOKS
+301 Folio Street, Emeryville CA 94608
+
+STANDING ORDER FOR NEW RELEASES
+Account Number: AP-220914
+
+ELEANOR MARGARET HALLORAN
+218 Ridgeline Avenue, Oakland CA 94611
+
+This notice is issued annually for your records. Please retain it. If any of the
+details shown are incorrect, contact us at the address below.
+
+Correspondence: orders@aureliapress.example.invalid
+
+=== END OF DOCUMENT ===

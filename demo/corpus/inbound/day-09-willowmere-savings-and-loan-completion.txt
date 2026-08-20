@@ -1,0 +1,6 @@
+From: estates@willowmere-savings.example.invalid
+Subject: Passbook account closed - 91-338204
+Simulated-Day: 9
+Kind: completion
+
+Thank you for the certified copy of the death certificate. The account has been closed and the closing balance has been released to the estate by cheque to the executor's address of record.

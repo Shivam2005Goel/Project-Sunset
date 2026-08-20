@@ -1,0 +1,6 @@
+From: members@blueheronwine.example.invalid
+Subject: Membership ended - BH-4471
+Simulated-Day: 6
+Kind: completion
+
+We are very sorry to hear this news. The membership has been closed and the quarterly allocation cancelled. No further charges will be made.

@@ -1,0 +1,70 @@
+# Fictional institution. Modelled on publicly documented defined-benefit scheme
+# bereavement procedures.
+name: ironbridge-retirement-fund
+institution_name: Ironbridge Retirement Fund
+category: PENSION
+version: 1.0.0
+aliases:
+  - Ironbridge Retirement
+  - Ironbridge Pension
+  - IRONBRIDGE RET FUND
+
+department: Member Services - Bereavement
+submission_channel: POSTAL
+submission_address: "Bereavement Team, Ironbridge Retirement Fund, PO Box 4412, Sacramento CA 95812"
+submission_note: >-
+  Ironbridge accepts notification by post only and will not act on emailed documents.
+  Overpayment recovery starts automatically once the death is recorded: any pension
+  instalment paid after the date of death will be reclaimed, so notifying early
+  reduces what the estate has to repay.
+
+required_documents:
+  - certified copy of the death certificate
+  - letters testamentary
+  - completed member bereavement notification (Form MB-7)
+  - bank details for any residual payment to the estate
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_date_of_birth
+  - decedent_last_address
+  - decedent_ssn_last4
+  - death_certificate_certified
+  - letters_testamentary
+  - policy_number
+  - executor_full_name
+  - executor_email
+  - executor_address
+
+typical_sla_days: 28
+follow_up_after_days: 35
+max_follow_ups: 3
+
+known_follow_up_demands:
+  - document: marriage or civil partnership certificate
+    frequency: common
+    first_seen: 1.0.0
+    note: Required whenever a survivor's pension may be payable.
+  - document: statement of overpaid instalments
+    frequency: always
+    first_seen: 1.0.0
+    note: >-
+      Ironbridge issues this rather than requesting it, but the estate must acknowledge
+      it before the file closes.
+
+escalation_triggers:
+  - any claim of overpayment the estate is asked to repay
+  - any question about a surviving spouse's or dependant's entitlement
+  - any request to nominate a payment destination
+
+closure_signals:
+  - member record has been closed
+  - final settlement has been issued to the estate
+  - no residual benefit is payable
+
+source: Composite of publicly published pension scheme bereavement guides. Fictional.
+notes: >-
+  The overpayment clause is why pensions are notified first in the orchestrator's
+  ordering - every week of delay is money the estate owes back.
+fictional: true

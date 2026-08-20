@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+BAYVIEW WATER DISTRICT
+440 Shoreline Drive, Oakland CA 94607
+
+STATEMENT OF ACCOUNT
+Domestic water and sewer service
+Account Number: 30-99814
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $61.40
+
+Questions about this statement? Write to accounts@bayview-water.example.invalid
+
+=== END OF DOCUMENT ===

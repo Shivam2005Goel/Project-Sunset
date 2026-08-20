@@ -1,0 +1,6 @@
+From: estatetransfer@cascadia-securities.example.invalid
+Subject: Estate transfer CS-ET-77120 - documents outstanding
+Simulated-Day: 15
+Kind: request
+
+We require the completed Form ET-3 estate transfer instruction before positions can be moved. Please submit within 30 days.

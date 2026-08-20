@@ -1,0 +1,6 @@
+From: administration@cobaltridge.example.invalid
+Subject: Annuity - final position
+Simulated-Day: 29
+Kind: completion
+
+The annuity has been closed and the residual value has been settled in full to the estate. No further instalments are payable.

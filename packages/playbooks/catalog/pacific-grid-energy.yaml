@@ -1,0 +1,57 @@
+# Fictional institution. Modelled on publicly documented utility bereavement procedures.
+name: pacific-grid-energy
+institution_name: Pacific Grid Energy
+category: UTILITY
+version: 1.0.0
+aliases:
+  - Pacific Grid
+  - PACIFIC GRID ENERGY
+  - Pacific Grid Power
+
+department: Customer Accounts - Estates
+submission_channel: EMAIL
+submission_address: estates@pacific-grid.example.invalid
+submission_note: >-
+  Supply must not be disconnected while the property is still occupied or being
+  prepared for sale. The correct request is transfer of the account into the estate's
+  name, not closure - asking for closure on an occupied property is the most common
+  and most damaging mistake an executor makes here.
+
+required_documents:
+  - copy of the death certificate
+  - executor's proof of appointment
+  - final meter reading
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_last_address
+  - executor_full_name
+  - executor_email
+  - account_fingerprint
+
+typical_sla_days: 10
+follow_up_after_days: 14
+max_follow_ups: 2
+
+known_follow_up_demands:
+  - document: confirmation of property occupancy status
+    frequency: common
+    first_seen: 1.0.0
+    note: Determines whether the account transfers or closes.
+
+escalation_triggers:
+  - any proposal to disconnect supply
+  - any outstanding balance or final-bill dispute
+  - any question about who is responsible for ongoing charges
+
+closure_signals:
+  - account has been transferred to the estate
+  - final bill has been issued
+  - account has been closed
+
+source: Composite of publicly published utility bereavement guides. Fictional.
+notes: >-
+  The occupancy question is the reason this playbook exists rather than falling back to
+  the generic template: the generic letter asks for closure and gets it wrong.
+fictional: true

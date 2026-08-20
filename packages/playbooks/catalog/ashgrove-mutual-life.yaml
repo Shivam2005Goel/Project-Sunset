@@ -1,0 +1,69 @@
+# Fictional institution. Life claims process modelled on publicly documented life
+# insurer claims procedures.
+name: ashgrove-mutual-life
+institution_name: Ashgrove Mutual Life
+category: LIFE_INSURANCE
+version: 1.0.0
+aliases:
+  - Ashgrove Mutual
+  - Ashgrove Life
+  - ASHGROVE MUT LIFE
+
+department: Claims - Life Benefits
+submission_channel: EMAIL
+submission_address: claims@ashgrove-mutual.example.invalid
+submission_note: >-
+  Ashgrove opens a claim file on first contact and assigns a claim number within two
+  business days. Every later document must quote it. The claim form must be completed
+  by the beneficiary, not by the executor, unless the estate is the named beneficiary -
+  determining which of those is true is a legal question and escalates.
+
+required_documents:
+  - certified copy of the death certificate
+  - completed claimant's statement (Form CL-1)
+  - policy document or policy number
+  - executor's government-issued photo identification
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_date_of_birth
+  - death_certificate_certified
+  - death_certificate_number
+  - policy_number
+  - executor_full_name
+  - executor_email
+
+typical_sla_days: 21
+follow_up_after_days: 28
+max_follow_ups: 2
+
+known_follow_up_demands:
+  - document: attending physician's statement
+    frequency: occasional
+    first_seen: 1.0.0
+    note: >-
+      Requested when death occurs within the contestability period. The agent never
+      obtains or forwards medical records - cause of death is on the never-disclose
+      list. This escalates every time.
+  - document: beneficiary's photo identification
+    frequency: common
+    first_seen: 1.0.0
+
+escalation_triggers:
+  - any question about who the named beneficiary is
+  - any mention of contested designation, dispute, or competing claim
+  - any request for medical records or cause of death
+  - any assertion that the policy lapsed or was surrendered
+
+closure_signals:
+  - the claim has been paid
+  - benefit has been disbursed
+  - payment has been issued to the beneficiary
+
+source: >-
+  Composite of publicly published life-insurance claim guides. Fictional institution.
+notes: >-
+  The escalation triggers here are load-bearing. Beneficiary designation is the single
+  most common place an automated system would overstep into a legal determination.
+fictional: true

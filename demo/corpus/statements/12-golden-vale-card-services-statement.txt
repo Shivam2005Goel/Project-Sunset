@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+GOLDEN VALE CARD SERVICES
+PO Box 91180, Los Angeles CA 90009
+
+STATEMENT OF ACCOUNT
+Credit card account - annual summary
+Account Number: 5412-0000-8890
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $1,204.66
+
+Questions about this statement? Write to estates@goldenvale-cards.example.invalid
+
+=== END OF DOCUMENT ===

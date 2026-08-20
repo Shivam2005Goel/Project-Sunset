@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+SUNSET FIBER BROADBAND
+915 Telegraph Avenue, Oakland CA 94612
+
+STATEMENT OF ACCOUNT
+Residential fibre broadband
+Account Number: 22-778341
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $79.99
+
+Questions about this statement? Write to care@sunsetfiber.example.invalid
+
+=== END OF DOCUMENT ===

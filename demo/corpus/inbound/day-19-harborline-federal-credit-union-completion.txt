@@ -1,0 +1,6 @@
+From: memberservices@harborline-fcu.example.invalid
+Subject: Share savings closed - 77-220145
+Simulated-Day: 19
+Kind: completion
+
+The share savings account has been closed. The closing balance has been released to the estate. No further action is required from you.

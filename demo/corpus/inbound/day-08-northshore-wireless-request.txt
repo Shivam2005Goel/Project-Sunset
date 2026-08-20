@@ -1,0 +1,7 @@
+From: bereavement@northshore-wireless.example.invalid
+Subject: Action required - account 4471882
+Simulated-Day: 8
+Kind: request
+Note: Demands photo ID, which the Northshore playbook v1.0.0 does not list - this is what triggers the amendment to v1.1.0.
+
+Further to our acknowledgement, we require the executor's government-issued photo identification before we can close the account. Please provide this within 14 business days. Once received, the final bill will be backdated to the date of death.

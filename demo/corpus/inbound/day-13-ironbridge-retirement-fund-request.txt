@@ -1,0 +1,6 @@
+From: members@ironbridge-retirement.example.invalid
+Subject: Member M-889-2213 - Form MB-7 required
+Simulated-Day: 13
+Kind: request
+
+To complete our review we require the completed Form MB-7 (member bereavement notification). Please provide it by post within 21 days. We will confirm the final settlement position once received.

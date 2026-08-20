@@ -1,0 +1,7 @@
+From: office@fernbrook-storage.example.invalid
+Subject: Unit 214 - agreement ended
+Simulated-Day: 13
+Kind: completion
+Note: A $148/month debit nobody could explain until discovery inferred it.
+
+Thank you for your letter. The storage agreement has been ended and the account is now closed. Unit 214 must be cleared within 30 days; keys can be collected from the office. No further monthly charges will be taken.

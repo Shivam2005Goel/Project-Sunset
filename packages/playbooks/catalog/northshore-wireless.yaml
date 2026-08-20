@@ -1,0 +1,56 @@
+# Fictional institution. Modelled on publicly documented mobile carrier bereavement
+# procedures.
+name: northshore-wireless
+institution_name: Northshore Wireless
+category: TELECOM
+version: 1.0.0
+aliases:
+  - Northshore Wireless Inc
+  - NORTHSHORE WIRELESS
+  - Northshore Mobile
+
+department: Account Care - Bereavement
+submission_channel: EMAIL
+submission_address: bereavement@northshore-wireless.example.invalid
+submission_note: >-
+  Carriers bill in advance, so charges continue accruing until the line is suspended.
+  Northshore suspends on notification and backdates the final bill to the date of
+  death - but only if the death certificate arrives within 60 days.
+
+required_documents:
+  - copy of the death certificate (certified not required)
+  - executor's proof of appointment or next-of-kin declaration
+
+required_disclosures:
+  - decedent_full_name
+  - decedent_date_of_death
+  - decedent_last_address
+  - executor_full_name
+  - executor_email
+  - account_fingerprint
+
+typical_sla_days: 7
+follow_up_after_days: 12
+max_follow_ups: 2
+
+known_follow_up_demands:
+  - document: device return confirmation
+    frequency: occasional
+    first_seen: 1.0.0
+    note: Only where a handset is on an instalment plan.
+
+escalation_triggers:
+  - any early termination fee or device instalment balance
+  - any request to transfer the number to another person
+  - any statement that the account is in arrears
+
+closure_signals:
+  - line has been disconnected
+  - account has been closed
+  - final bill has been issued
+
+source: Composite of publicly published carrier bereavement pages. Fictional.
+notes: >-
+  Fast SLA and low document burden make this the first case to reach CLOSED in the
+  demo, which is useful: the dashboard has something green early.
+fictional: true

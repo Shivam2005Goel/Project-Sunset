@@ -1,0 +1,6 @@
+From: estatetransfer@cascadia-securities.example.invalid
+Subject: Estate transfer CS-ET-77120 complete
+Simulated-Day: 30
+Kind: completion
+
+Form ET-3 has been processed. All positions have been transferred to the estate account and the original account has been closed. Your medallion guarantee was accepted as provided.

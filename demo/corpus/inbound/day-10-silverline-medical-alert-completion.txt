@@ -1,0 +1,7 @@
+From: support@silverline-alert.example.invalid
+Subject: Service cancelled
+Simulated-Day: 10
+Kind: completion
+Note: A service the family did not know existed until discovery inferred it.
+
+We received your letter. The monitoring service has been cancelled with effect from the date of death and the account is now closed. The base unit may be returned in the prepaid envelope enclosed, or disposed of.

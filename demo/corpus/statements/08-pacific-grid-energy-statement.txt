@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+PACIFIC GRID ENERGY
+One Cordova Center, Oakland CA 94612
+
+STATEMENT OF ACCOUNT
+Residential electricity supply
+Account Number: 8812-4471
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Balance: $142.18
+
+Questions about this statement? Write to estates@pacific-grid.example.invalid
+
+=== END OF DOCUMENT ===

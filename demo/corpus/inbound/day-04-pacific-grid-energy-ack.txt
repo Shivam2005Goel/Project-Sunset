@@ -1,0 +1,10 @@
+From: estates@pacific-grid.example.invalid
+Subject: Re: Estate notification - account 8812-4471
+Simulated-Day: 4
+Kind: ack
+
+Thank you for your letter regarding the estate. We have received it and your request is being processed. Our condolences on your loss.
+
+Reference number PGE-EST-88214. We are sorry for your loss. Supply will not be interrupted while we review.
+
+We will write again once our review is complete.

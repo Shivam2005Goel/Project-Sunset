@@ -1,0 +1,6 @@
+From: clientservices@vantagepoint.example.invalid
+Subject: Portfolio VP-772041 transferred
+Simulated-Day: 10
+Kind: completion
+
+The managed portfolio has been transferred in kind to an estate account in the name of the estate. The transfer instruction has been executed and the original account is now closed.

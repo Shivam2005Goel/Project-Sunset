@@ -1,0 +1,6 @@
+From: accounts@bayview-water.example.invalid
+Subject: Account closed - 30-99814
+Simulated-Day: 6
+Kind: completion
+
+We have received the death certificate. The account has been closed as of the date of death and the final bill of $18.20 has been issued to the estate. The matter is now concluded from our side.

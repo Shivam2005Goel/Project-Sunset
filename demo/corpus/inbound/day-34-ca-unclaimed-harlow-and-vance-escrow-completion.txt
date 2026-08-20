@@ -1,0 +1,7 @@
+From: claims@ca-unclaimed.example.invalid
+Subject: Claim CA-UP-2019-771204 approved
+Simulated-Day: 34
+Kind: completion
+Note: The money nobody knew existed.
+
+Your claim has been approved. Payment has been issued to the estate in the sum of $4,214.60. The claim is now concluded.

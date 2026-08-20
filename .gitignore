@@ -1,0 +1,56 @@
+# Local state: the JSON store, blobs, outbox, audit log, registry, traces.
+.aftercare/
+*.quarantine.txt
+
+# Secrets. Nothing sensitive belongs in the repo; cloud runtime reads Secret Manager.
+.env
+.env.local
+credentials/
+*.pem
+*.key
+service-account*.json
+
+# Tooling that happens to have been installed inside the project directory. The Google
+# Cloud SDK is ~40,000 files and belongs on PATH, not in the repo.
+google-cloud-sdk/
+credentials/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# The generated corpus IS committed. It is regenerated deterministically from
+# demo/estate.py, but a judge should be able to read the twenty uploaded documents and
+# the forty-two scripted replies without running anything first.

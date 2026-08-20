@@ -1,0 +1,10 @@
+From: estatetransfer@cascadia-securities.example.invalid
+Subject: Estate Transfer Unit - account 5590-44821
+Simulated-Day: 8
+Kind: ack
+
+Thank you for your letter regarding the estate. We have received it and your request is being processed. Our condolences on your loss.
+
+Your estate transfer file is CS-ET-77120.
+
+We will write again once our review is complete.

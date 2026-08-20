@@ -1,0 +1,16 @@
+=== PAGE 1 ===
+VANTAGE POINT INVESTMENTS
+12 Marlow Court, Sacramento CA 95814
+
+STATEMENT OF ACCOUNT
+Managed Portfolio - annual summary
+Account Number: VP-772041
+Statement Period: 2025-07-01 to 2026-06-30
+Account Holder: ELEANOR MARGARET HALLORAN
+                218 Ridgeline Avenue, Oakland CA 94611
+
+Account Value: $22,410.35
+
+Questions about this statement? Write to clientservices@vantagepoint.example.invalid
+
+=== END OF DOCUMENT ===
