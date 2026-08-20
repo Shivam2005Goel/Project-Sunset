@@ -24,7 +24,7 @@ from services.discovery.documents import load_corpus
 
 @pytest.fixture(scope="module", autouse=True)
 def corpus():
-    build_all()
+    build_all(force=True)
     return STATEMENTS_DIR
 
 

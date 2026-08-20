@@ -14,7 +14,9 @@ track. Deadline **Sep 1 2026, 05:30 IST**. Optimize for a working demo over comp
 <!-- This is the single most load-bearing section of this file. See BUILD_PLAN.md Day 0. -->
 
 - GCP project id: _unset_
-- `gemini-3.5-flash` callable in region: _unverified_
+- `gemini-3.5-flash` callable in region: **no** - 404 NOT_FOUND on us-central1.
+  `packages/core/config.py` currently defaults to `gemini-1.5-flash` / `gemini-1.5-pro`.
+  Confirm which IDs the real project can call and settle this in one place.
 - Agent Registry GA / waitlisted: _unverified_
 - Agent Runtime GA / waitlisted: _unverified_
 - Memory Bank GA / waitlisted: _unverified_
@@ -114,7 +116,7 @@ publish-playbooks       deploy  destroy   fmt
 <!-- Keep this section updated every session. It's the fastest way to resume context. -->
 
 - [x] Day 1 - skeleton, adapters, Terraform, LLM router (offline + Gemini paths)
-- [x] Day 2 - discovery job + obligation graph (23 obligations, 3 inference-only)
+- [x] Day 2 - discovery job + obligation graph (23 obligations; 3 inferred, 1 registry)
 - [x] Day 3 - playbooks + registry publisher (6 institutions, semver, diff)
 - [x] Day 4 - FSM + orchestrator (per-institution sub-agents, closure packets)
 - [x] Day 5 - inbound pipeline + guardrails (40-payload adversarial suite)
@@ -122,8 +124,8 @@ publish-playbooks       deploy  destroy   fmt
 - [x] Day 7 - dashboard (Next.js, obligation graph, approval queue, audit, clock)
 - [x] Day 8 - observability + audit export (spans, BigQuery-shaped sink, court PDF/HTML)
 - [x] Day 9 - time-warp driver + seeded six-week corpus
-- [x] Day 10 - deploy to a fresh GCP project, freeze  <-- REQUIRES REAL GCP CREDENTIALS
-- [x] Day 11 - video + writeup
+- [ ] Day 10 - deploy to a fresh GCP project, freeze  <-- REQUIRES REAL GCP CREDENTIALS
+- [ ] Day 11 - video + writeup
 
 **What is NOT done:** nothing has been deployed to or verified against real GCP. All cloud
 adapters (Vertex, Firestore, Pub/Sub, BigQuery, DLP) are written but **never executed

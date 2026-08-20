@@ -213,7 +213,37 @@ def build_registry_fixture(path: Path | None = None) -> Path:
     return path
 
 
-def build_all() -> dict[str, int]:
+def is_current() -> bool:
+    """Is the corpus on disk already the one `demo/estate.py` describes?
+
+    Cheap structural check: the right number of files in the right places. The content is
+    a pure function of `estate.py`, so a count match means a content match unless someone
+    hand-edited a generated file - which the header of every one of them warns against.
+    """
+    expected_statements = 1 + len(DOCUMENTED)  # the death certificate, plus one per institution
+    return (
+        len(list(STATEMENTS_DIR.glob("*.txt"))) == expected_statements
+        and len(list(INBOUND_DIR.glob("*.txt"))) == len(SCRIPT)
+        and (CORPUS_DIR / "unclaimed_registry.json").exists()
+    )
+
+
+def build_all(*, force: bool = False) -> dict[str, int]:
+    """Generate the corpus if it is not already on disk.
+
+    Deliberately not unconditional. The corpus is committed and deterministic, so
+    rebuilding it on every seed is pure work - and on Windows, deleting and rewriting a
+    directory that another process may have open is a flake waiting to happen. Pass
+    `force=True` (or run this module directly) after editing `demo/estate.py`.
+    """
+    if not force and is_current():
+        return {
+            "statements": len(list(STATEMENTS_DIR.glob("*.txt"))),
+            "inbound": len(list(INBOUND_DIR.glob("*.txt"))),
+            "unclaimed_records": len(UNCLAIMED_RECORDS),
+            "rebuilt": False,
+        }
+
     statements = build_statements()
     inbound = build_inbound()
     build_registry_fixture()
@@ -221,6 +251,7 @@ def build_all() -> dict[str, int]:
         "statements": len(statements),
         "inbound": len(inbound),
         "unclaimed_records": len(UNCLAIMED_RECORDS),
+        "rebuilt": True,
     }
 
 
@@ -242,4 +273,4 @@ def undocumented_lines() -> list[RecurringLine]:
 
 
 if __name__ == "__main__":
-    print(build_all())
+    print(build_all(force=True))
