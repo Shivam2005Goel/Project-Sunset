@@ -43,6 +43,7 @@ npm-debug.log*
 *.tfvars
 !*.tfvars.example
 .terraform.lock.hcl
+terraform.exe
 
 # Editors and OS
 .DS_Store
